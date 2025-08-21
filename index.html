@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Lancelot&family=Marcellus+SC&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Ovo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/Icon.png" type="image/png" />
+    <title>Portfolio | Cristal Figueiredo</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#home" class="logo"
+        >Cristal <br />
+        <span>Figueiredo</span>
+      </a>
+
+      <nav class="navbar">
+        <a href="#home" class="active"> Inicio</a>
+        <a href="#about">Sobre mim</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+
+        <div class="color-picker-wrapper">
+          <i class="fas fa-palette" id="colorIcon"></i>
+          <input type="color" id="colorPicker" />
+        </div>
+      </nav>
+
+      <div class="menu">
+        <input type="checkbox" id="checkbox" />
+        <label for="checkbox" class="toggle">
+          <div class="bars" id="bar1"></div>
+          <div class="bars" id="bar2"></div>
+          <div class="bars" id="bar3"></div>
+        </label>
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="#home" class="active">Menu</a></li>
+            <li><a href="#about">Sobre mim</a></li>
+            <li><a href="#habilidades">habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+
+          <div class="color-picker-wrapper">
+            <i class="fas fa-palette" id="colorIconMobile"></i>
+            <input type="color" id="colorPickerMobile" />
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <canvas id="mouseTrail"></canvas>
+
+  <video autoplay muted loop id="background-video">
+    <source src="img/Background.mp4" type="video/mp4">
+  </video>
+
+    <section class="home fade-in" id="home">
+      <div class="home-content fade-in">
+        <h1>Seja Muito Bem-vindo/a <span> ao meu portfólio!</span></h1>
+        <p><span> ➥ </span>
+           Aqui você encontrará uma amostra do meu trabalho,
+          que representa não apenas meu <span>progresso técnico</span>, mas também
+          minha <span>paixão pelo universo da tecnologia</span>. Cada projeto
+          reflete meu <span>comprometimento</span> em aprender, evoluir e entregar
+          <span>soluções de qualidade</span>.
+          Espero que você se sinta inspirado(a) a conhecer mais sobre minhas
+          <span>habilidades</span> e o <span>potencial</span> que posso oferecer
+          em diferentes contextos. Ficarei feliz em colaborar em futuros desafios,
+         contribuindo com <span>ideias</span>, <span>dedicação</span> e <span>inovação</span>. 
+        </p>
+
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/cristal-figueiredo-9150b9336/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/CristalFigueiredoo"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.instagram.com/opss.andrade_/#"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </div>
+
+        <div class="btn-group">
+          <a href="Curriculum Cristal Figueiredo.pdf" download="Curriculum Cristal Figueiredo.pdf" class="btn">
+            Baixe Meu Curriculo</a
+          >
+          <a href="#contato" class="btn"> Contato</a>
+        </div>
+      </div>
+   </section>
+<section class="about fade-in" id="about">
+  <div class="about-wrapper">
+    <div class="about-img">
+      <img src="img/Cristal.jpg" alt="Cristal Figueiredo" />
+    </div>
+
+    <div class="about-content">
+      <h1 class="heading">Conheça um pouco mais</h1>
+      <h2>SOBRE MIM</h2>
+
+      <p>
+        Sou estudante de <span class="highlight">Técnico em Informática</span> e, ao longo da minha formação, desenvolvi uma profunda paixão por tecnologia. Durante minha jornada acadêmica, participei de projetos nas áreas de <span class="highlight">Banco de Dados</span>, <span class="highlight">Lógica de Programação</span>, <span class="highlight">Front-End</span>, <span class="highlight">Redes e Arquitetura de Computadores</span>, <span class="highlight">Programação Orientada a Objetos</span> e <span class="highlight">Técnicas de Programação Avançada</span>.
+      </p>
+
+      <p>
+        Atualmente, estou direcionando meus estudos para <span class="highlight">Desenvolvimento Web</span>, com ênfase em <span class="highlight">Front-End</span> e no <span class="highlight">Design de Interfaces Intuitivas</span>. Tenho interesse em criar experiências de usuário dinâmicas e funcionais, aliando inovação e usabilidade.
+      </p>
+
+      <p>
+        O aprendizado contínuo é uma das minhas maiores paixões, e estou sempre em busca de me atualizar com as melhores práticas do mercado.
+      </p>
+
+      <p>
+        <span class="highlight">Trabalho em equipe</span> é um dos pontos que mais valorizo. Acredito que a colaboração e o compartilhamento de conhecimento são essenciais para o desenvolvimento de projetos desafiadores e para o crescimento profissional e pessoal.
+      </p>
+
+      <p>
+        Em cada projeto, busco excelência em qualidade e eficiência, seja no desenvolvimento de software ou no design de interfaces. Meu objetivo é não apenas aprimorar minhas habilidades técnicas, mas também contribuir significativamente para o sucesso das equipes e projetos dos quais participo.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+    <section class="habilidades fade-in" id="habilidades">
+      <h2 class="heading">Minhas Habilidades</h2>
+
+      <div class="habilidades-container fade-in">
+        <div class="habilidade-box">
+          <div class="habilidade-info">
+           <h4><i class="fas fa-paint-brush"></i> UI Designer</h4>
+            <p>
+              Participei de diversos projetos no Figma, criando protótipos e layouts
+              focados em usabilidade e estética. Cada experiência fortaleceu minhas
+              habilidades em design, colaboração e resolução de problemas.
+              <br>
+              Também explorei o uso de inteligência artificial no design, utilizando
+              a plataforma Lovable para modelar meu site. Essa integração entre IA e
+              design expandiu minha visão criativa e técnica, resultando em soluções
+              mais inteligentes e personalizadas.
+            </p>
+          </div>
+        </div>
+
+        <div class="habilidade-box">
+          <div class="habilidade-info">
+            <h4><i class="fas fa-code"></i> Frontend Development</h4>
+            <p>
+              Desenvolvo interfaces web que aliam estética, funcionalidade e 
+              performance. Com experiência prática em HTML, CSS e JavaScript,
+              crio soluções visuais que se adaptam a diferentes dispositivos
+              e oferecem uma navegação fluida. Estou em constante evolução
+              profissional, atualmente em aprendizadigem com React e Blazor para
+              ampliar meu repertório em frameworks modernos e enriquecer
+              meus projetos no portfólio.
+            </p>
+          </div>
+        </div>
+
+        <div class="habilidade-box">
+          <div class="habilidade-info">
+             <h4><i class="fas fa-server"></i> Backend Development</h4>
+            <p>
+              Atualmente, venho expandindo minhas habilidades em backend
+              com foco em Python e JavaScript, além de aprofundar meu
+              conhecimento em MySQL e integração com C#. Essa evolução tem
+              fortalecido minha capacidade de atuar no desenvolvimento full
+              stack, permitindo entregar soluções mais completas, escaláveis
+              e alinhadas às demandas do mercado. Cada etapa desse processo
+              tem contribuído significativamente para meu crescimento técnico
+              e versatilidade como profissional.
+            </p>
+          </div>
+        </div>
+
+        <div class="habilidade-box">
+          <div class="habilidade-info">
+            <h4><i class="fas fa-laptop-code"></i> Linguagens Predominantes</h4>
+            <div class="icones-habilidades">
+              <img
+                src="img/html-5.png"
+                alt=""
+                width="45px"
+                class="tooltip"
+                data-tooltip="HTML5"
+              />
+
+              <img
+                src="img/css-3.png"
+                alt=""
+                width="50px"
+                class="tooltip"
+                data-tooltip="CSS3"
+              />
+
+              <img src="img/javascript.png" alt="" width="53px" />
+
+              <img src="img/react.png" alt="" width="50px" />
+              <img src="img/programing.png" alt="" width="50px" />
+              <br class="quebra-icones" />
+
+              <img src="img/mysql.png" alt="" width="50px" />
+              <img src="img/c-sharp.png" alt="" width="50px" />
+
+              <img src="img/figma.png" alt="" width="50px" />
+              <img src="img/python.png" alt="" width="50px" />
+
+              <img src="img/web.png" alt="" width="50px" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+<section class="projetos fade-in" id="projetos">
+  <div class="projeto-box">
+    <h2 class="heading">Projetos</h2>
+    <div class="info-projeto">
+       Ao clicar na foto será redirecionado ao <br> meu repositorio do Github
+    </div>
+    <div class="wrapper fade-in">
+      <div class="projeto-item horizontal">
+        <div class="projeto-img-container">
+          <a href="https://github.com/CristalFigueiredoo?tab=repositories" target="_blank">
+            <img src="img/front.png" alt="Projeto Front-End" />
+          </a>
+        </div>
+        <div class="projeto-texto">
+          <h2>Front-End</h2>
+          <p>
+            Tenho diversos projetos de front-end que mostram meu aprendizado e
+            evolução no desenvolvimento web. Entre eles, estão uma calculadora
+            funcional, uma lista de tarefas interativa, além de um site chamado
+            ElevaTech que fiz para meu curso de Redes e Infraestrutura de computadores,
+            onde trabalhei com layouts responsivos e usabilidade. Esses projetos
+            refletem minha habilidade de criar soluções práticas e visuais atraentes.
+          </p>
+        </div>
+      </div>
+
+      <div class="projeto-item horizontal">
+        <div class="projeto-img-container">
+          <a href="https://github.com/CristalFigueiredoo?tab=repositories" target="_blank">
+            <img src="img/backend.png" alt="Projeto Back-End" />
+          </a>
+        </div>
+        <div class="projeto-texto">
+          <h2>Back-End</h2>
+          <p>
+            Tenho diversos projetos de back-end, onde uso principalmente MySQL
+            e C#. Entre eles, desenvolvi bancos de dados para instituições
+            bancárias, um programa para gerenciar eleições, além de várias
+            outras soluções em diferentes áreas. Esses projetos mostram minha
+            versatilidade e habilidade em criar sistemas robustos e eficientes.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <section class="contact fade-in" id="contato">
+      <h1 class="heading">Contate<span>-me</span></h1>
+      <p><h2>
+          Quer entrar em contato comigo? Seja para esclarecer dúvidas, discutir
+          projetos ou enviar feedbacks, estou aqui para ajudar!
+      </h2></p>
+      <form name="contato" method="post" data-netlify="true" class="fade-in">
+        <input type="hidden" name="form-name" value="contato" />
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text" name="nome" placeholder="Name" />
+            <input type="email" name="email" placeholder="Email" />
+          </div>
+          <div class="input-box">
+            <input type="number" name="numero" placeholder="Número" />
+            <input type="text" name="texto" placeholder="Subject" />
+          </div>
+        </div>
+
+        <div class="input-group2">
+          <textarea
+            name="mensagem"
+            cols="30"
+            rows="10"
+            placeholder="Sua Mensagem !"
+          ></textarea>
+          <input type="submit" value="Envie Sua Mensagem" class="btn" />
+        </div>
+
+        <!-- Modal personalizado -->
+      </form>
+    </section>
+    <div id="modal-aviso" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>🚫 Formulário Offline</h2>
+        <p>No momento, o envio por e-mail está desativado.</p>
+        <p>Mas você pode falar comigo direto pelo:</p>
+        <div class="modal-links">
+          <a href="https://wa.me/3199381324" target="_blank">💬 WhatsApp</a>
+          <a
+            href="https://www.linkedin.com/in/cristal-figueiredo-9150b9336/"
+            target="_blank"
+            >🔗 LinkedIn</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="social">
+        <a
+          href="https://www.linkedin.com/in/cristal-figueiredo-9150b9336/"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://github.com/CristalFigueiredoo"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/opss.andrade_/#"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+      </div>
+
+      <ul class="list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Sobre mim</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+
+      <p class="copyright"> @ Cristal Figueiredo | All Rights Reserved</p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
