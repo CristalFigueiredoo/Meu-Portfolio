@@ -46,8 +46,7 @@ Acesse o projeto online clicando aqui: [Portfolio - Cristal Figueiredo](https://
 ## 📩 Contato
 
 - E-mail: cristalfandrade02@gmail.com
-- LinkedIn: [Link]([https://linkedin.com/in/seuperfil](https://www.linkedin.com/in/cristal-figueiredo-9150b9336/))  
-
+- LinkedIn: ([https://linkedin.com/in/seuperfil](https://www.linkedin.com/in/cristal-figueiredo-9150b9336/)) 
 ---
 
 > _Este projeto é pessoal e está em constante atualização à medida que evoluo como desenvolvedora._
