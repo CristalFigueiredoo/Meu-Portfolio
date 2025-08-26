@@ -26,3 +26,9 @@ Este portfólio foi desenvolvido com o objetivo de apresentar minhas habilidades
 ## 📸 Prévia do Projeto
 
 ![Portfólio Preview](./img/screenshot.png)
+
+---
+
+## 🔗 Link do Projeto
+
+Acesse o projeto online clicando aqui: [Portfolio - Cristal Figueiredo](https://cristalfigueiredo.netlify.app/)
